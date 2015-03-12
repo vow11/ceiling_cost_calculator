@@ -1,125 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="css/uniform.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    	<meta charset="utf-8">
+    	<title></title>
+    	<link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
 <body>
- 
 <div class="TTWForm-container">
-      
-      
-     <form action="process_form.php" class="TTWForm" method="post" novalidate="">
-		             
-           
-          <div id="field1-container" class="field f_50">
-               <label for="field1">
-                    Площадь, м<sup>2</sup> (x или x.x)
-               </label>
-              <input type="text" name="field1" id="field1" required="required" value="0">
-          </div>
-           
-           
-            <div id="field2-container" class="field f_50">
-               <label for="field2">
-                    Материал
-               </label>
-               <select name="field2" id="field2" required="required">
-                    <option id="field2-1" value="matovy">
-                         Матовый
-                    </option>
-                    <option id="field2-2" value="satin">
-                         Сатин
-                    </option>
-                    <option id="field2-3" value="lak">
-                         Лаковый
-                    </option>
-               </select>
-          </div>
-
-            <div id="field3-container" class="field f_50">
-               <label for="field3">
-                    Цвет
-               </label>
-               <select name="field3" id="field3" required="required">
-                    <option id="field3-1" value="white">
-                         Белый
-                    </option>
-                    <option id="field3-2" value="color">
-                         Цветной
-                    </option>
-               </select>
-          </div>
-		  
-		  
-		  <div id="field4-container" class="field f_50">
-               <label for="field4">
-                    Периметр, м (x или x.x)
-               </label>
-                      <input type="text" name="field4" id="field4" required="required" value="0">
-          </div>
-        
-              <div id="field5-container" class="field f_50">
-               <label for="field5">
-                    Тип багета
-               </label>
-               <select name="field5" id="field5" required="required">
-                    <option id="field5-1" value="plastic">
-                         Пластик
-                    </option>
-                    <option id="field5-2" value="aluminium">
-                         Алюминий
-                    </option>
-               </select>
-          </div>
-		  
-		              <div id="field6-container" class="field f_50">
-               <label for="field6">
-                    Вставка
-               </label>
-               <select name="field6" id="field6" required="required">
-                    <option id="field6-1" value="no">
-                         Нет
-                    </option>
-                    <option id="field6-2" value="technical">
-                         Техническая
-                    </option>
-                    <option id="field6-3" value="artistic">
-                         Декоративная
-                    </option>
-               </select>
-          </div>
-           
- 		  <div id="field7-container" class="field f_50">
-               <label for="field7">
-                    Количество углов, шт.
-               </label>
-               <input type="text" name="field7" id="field7" required="required" value="0">
-          </div>         
-		  
- 		  <div id="field8-container" class="field f_50">
-               <label for="field8">
-                    Количество труб, шт.
-               </label>
-               <input type="text" name="field8" id="field8" required="required" value="0">
-          </div>
-		  
- 		  <div id="field9-container" class="field f_50">
-               <label for="field9">
-                    Количество осветительных приборов, шт.
-               </label>
-               <input type="text" name="field9" id="field9" required="required" value="0">
-          </div>
-		  
-          <div id="form-submit" class="field f_50 clearfix submit">
-               <input type="submit" value="Рассчитать">
-          </div>
-     </form>
+	<form action="process_form.php" class="TTWForm" method="post" novalidate="">
+      		<div id="field1-container" class="field f_50">
+               		<label for="field1">
+                    		Площадь, м<sup>2</sup> (x или x.x)
+               		</label>
+              		<input type="text" name="field1" id="field1" required="required" value="0">
+        	</div>
+        	<div id="field2-container" class="field f_50">
+               		<label for="field2">
+                		Материал
+               		</label>
+               		<select name="field2" id="field2" required="required">
+                	<option id="field2-1" value="matovy">
+                       		Матовый
+                	</option>
+                	<option id="field2-2" value="satin">
+                        	Сатин
+                	</option>
+                	<option id="field2-3" value="lak">
+                        	Лаковый
+                	</option>
+               		</select>
+        	</div>
+		<div id="field3-container" class="field f_50">
+               		<label for="field3">
+                		Цвет
+               		</label>
+               		<select name="field3" id="field3" required="required">
+                	<option id="field3-1" value="white">
+                        	Белый
+                	</option>
+                	<option id="field3-2" value="color">
+                        	Цветной
+                	</option>
+               		</select>
+        	</div>
+		<div id="field4-container" class="field f_50">
+               		<label for="field4">
+                		Периметр, м (x или x.x)
+               		</label>
+                	<input type="text" name="field4" id="field4" required="required" value="0">
+        	</div>
+        	<div id="field5-container" class="field f_50">
+               		<label for="field5">
+                		Тип багета
+               		</label>
+               		<select name="field5" id="field5" required="required">
+                	<option id="field5-1" value="plastic">
+                        	Пластик
+                	</option>
+                	<option id="field5-2" value="aluminium">
+                        	Алюминий
+                	</option>
+               		</select>
+        	</div>
+		<div id="field6-container" class="field f_50">
+               		<label for="field6">
+                		Вставка
+               		</label>
+               		<select name="field6" id="field6" required="required">
+                	<option id="field6-1" value="no">
+                        	Нет
+                	</option>
+                	<option id="field6-2" value="technical">
+                        	Техническая
+                	</option>
+                	<option id="field6-3" value="artistic">
+                        	Декоративная
+                	</option>
+               		</select>
+        	</div>
+        	<div id="field7-container" class="field f_50">
+               		<label for="field7">
+                		Количество углов, шт.
+               		</label>
+               		<input type="text" name="field7" id="field7" required="required" value="0">
+        	</div>         
+		<div id="field8-container" class="field f_50">
+               		<label for="field8">
+                		Количество труб, шт.
+               		</label>
+               		<input type="text" name="field8" id="field8" required="required" value="0">
+        	</div>
+		<div id="field9-container" class="field f_50">
+               		<label for="field9">
+                		Количество осветительных приборов, шт.
+               		</label>
+               		<input type="text" name="field9" id="field9" required="required" value="0">
+        	</div>
+		<div id="form-submit" class="field f_50 clearfix submit">
+               		<input type="submit" value="Рассчитать">
+        	</div>
+     	</form>
 </div>
- 
 </body>
 </html>
